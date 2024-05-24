@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 import logo from "../assets/logo.png"
 
 export const Appbar = () => {
-    return <div className="border-b flex justify-between px-4 py-4 bg-palgreen2">
-        <Link to={'/blogs'} className="flex flex-col justify-center cursor-pointer w-40" style={{
+    return <div className="border-b flex justify-between px-4 py-4 bg-palgreen2 fixed w-full z-10">
+        <Link to={'/blogs'} className="flex flex-col justify-center cursor-pointer w-40 py-4" style={{
           backgroundImage: `url(${logo})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
