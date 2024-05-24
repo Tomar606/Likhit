@@ -30,7 +30,7 @@ export const Blogcard = ({
             {content.slice(0, 100) + "..."}
         </div>
         <div className="text-sm text-palgreen2 pt-2 pb-2">
-            {`${Math.ceil(content.length/100)} minutes read`}
+            {`${Math.ceil(content.length/400)} minutes read`}
         </div>
     </div>
     </Link>
