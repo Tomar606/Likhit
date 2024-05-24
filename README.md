@@ -1,6 +1,12 @@
-# 🌐 My Awesome WebApp
+# 🌐 Likhit Blog App
 
 Welcome to my awesome web application! This project showcases a modern, full-stack web application built with cutting-edge technologies. Below, you'll find details about the tech stack, features, and the benefits of using TypeScript.
+
+## 🌍 Deployment
+
+### Frontend
+- **Deployed on Vercel:** [Link to your deployed frontend](https://likhit-git-master-tomars-projects.vercel.app/signup)
+
 
 ## 🚀 Tech Stack
 
@@ -42,11 +48,6 @@ Welcome to my awesome web application! This project showcases a modern, full-sta
 - **Reliable and Scalable:** PostgreSQL combined with NeonDB provides a robust and scalable database solution.
 - **Seamless ORM Integration:** Prisma simplifies database interactions with a type-safe API.
 - **Optimized Performance:** Connection pooling with Accelerate ensures optimal performance under load.
-
-## 🌍 Deployment
-
-### Frontend
-- **Deployed on Vercel:** [Link to your deployed frontend](https://likhit-git-master-tomars-projects.vercel.app/signup)
 
 
 
