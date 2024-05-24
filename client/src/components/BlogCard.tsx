@@ -16,7 +16,7 @@ export const Blogcard = ({
     publishedDate
 }: BlogCardProps) => {
     return <Link to={`/blog/${id}`}>
-     <div className="p-4 bg-bg2 border-palgreen2 border-b-2 w-screen max-w-screen-md cursor-pointer">
+     <div className="p-4 bg-bg2 border-palgreen2 border-b-2 w-screen max-w-screen-md cursor-pointer rounded-2xl h-48 m-2 shadow-md">
         <div className="flex">
             <div className="flex-col">
            <Avatar name={authorName} />
@@ -37,8 +37,8 @@ export const Blogcard = ({
 }
 
 export function Avatar({ name, size = "small" }: { name: string, size?: "small" | "big" }) {
-    return <div className={`relative inline-flex items-center justify-center overflow-hidden bg-bg2 rounded-full ${size === "small" ? "w-6 h-6" : "w-10 h-10"}`}>
-    <span className={`${size === "small" ? "text-xs" : "text-md"} font-medium text-textc`}>
+    return <div className={`relative inline-flex items-center justify-center overflow-hidden bg-textc rounded-full ${size === "small" ? "w-6 h-6" : "w-10 h-10"}`}>
+    <span className={`${size === "small" ? "text-xs" : "text-md"} font-medium text-bg1`}>
         {name[0]}
     </span>
 </div>
